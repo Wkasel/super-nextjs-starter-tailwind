@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { AppProps } from 'next/app';
-
-import 'tailwindcss/tailwind.css';
 import { ApolloProvider } from '@apollo/client';
+import { AppProps } from 'next/app';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Hydrate } from 'react-query/hydration';
 
 import { StyledThemeProvider } from '@definitions/styled-components';
 import { appWithTranslation } from '@i18n';
 import { initializeApollo } from '@services/graphql';
+
+import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const apolloClient = initializeApollo();
