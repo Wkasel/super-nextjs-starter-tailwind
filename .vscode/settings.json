@@ -1,0 +1,69 @@
+{
+  "files.exclude": {
+    "amplify/.config": true,
+    "amplify/**/*-parameters.json": true,
+    "amplify/**/amplify.state": true,
+    "amplify/**/transform.conf.json": true,
+    "amplify/#current-cloud-backend": true,
+    "amplify/backend/amplify-meta.json": true,
+    "amplify/backend/awscloudformation": true
+  },
+  "explorer.compactFolders": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [100],
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.markdownlint": true
+  },
+  "scss.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.autoClosingQuotes": "always",
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    "tw=\"([^\"]*)",
+    "tw={\"([^\"}]*)",
+    "tw\\.\\w+`([^`]*)",
+    "tw\\(.*?\\)`([^`]*)"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "prettier.ignorePath": ".eslintignore",
+  "css.validate": false,
+  "stylelint.enable": true,
+  "typescript.format.enable": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "vsicons.associations.folders": [
+    {
+      "icon": "aws",
+      "extensions": ["amplify", "awscloudformation"],
+      "format": "svg"
+    },
+    {
+      "icon": "sso",
+      "extensions": ["auth"],
+      "format": "svg"
+    },
+    {
+      "icon": "controller",
+      "extensions": ["function"],
+      "format": "svg"
+    },
+    {
+      "icon": "server",
+      "extensions": ["storage"],
+      "format": "svg"
+    },
+    {
+      "icon": "bloc",
+      "extensions": ["backend"],
+      "format": "svg"
+    }
+  ]
+}

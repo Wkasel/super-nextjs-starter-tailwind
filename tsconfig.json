@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "strict": false,
+    "alwaysStrict": false,
+    "strictNullChecks": false,
+    "noUncheckedIndexedAccess": false,
+
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": true,
+    "suppressExcessPropertyErrors": true,
+    "noFallthroughCasesInSwitch": false,
+
+    "target": "es5",
+    "outDir": "out",
+    "declaration": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@services/*": ["src/services/*"],
+      "@sections/*": ["src/ui/sections/*"],
+      "@components/*": ["src/ui/*"],
+      "@definitions/*": ["src/definitions/*"],
+      "@ui/*": ["src/ui/*"],
+      "@types/*": ["src/interfaces/*"],
+      "@utils/*": ["srcutils/*"],
+      "@styles/*": ["src/ui/styles/*"],
+      "@icons/*": ["src/ui/icons/*"],
+      "@i18n": ["./i18n"]
+    },
+    "noEmit": false,
+    "isolatedModules": true
+  },
+  "exclude": ["./out/**/*", "./node_modules/**/*", "src/ui/**/**/*.spec.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types"]
+}

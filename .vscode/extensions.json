@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "csstools.postcss",
+    "blanu.vscode-styled-jsx",
+    "msjsdiag.debugger-for-chrome",
+    "bradlc.vscode-tailwindcss",
+    "lightyen.tailwindcss-intellisense-twin",
+    "gruntfuggly.todo-tree",
+    "esbenp.prettier-vscode",
+    "kumar-harsh.graphql-for-vscode",
+    "vscode-icons-team.vscode-icons",
+    "nathhorrigan.code-svgr",
+    "naumovs.color-highlight",
+    "heybourn.headwind",
+    "kddejong.vscode-cfn-lint",
+    "iakimov.check-npm-updates"
+  ]
+}

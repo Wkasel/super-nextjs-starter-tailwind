@@ -1,0 +1,6 @@
+.next
+.serverless
+.serverless_nextjs
+.storybook
+node_modules
+scripts

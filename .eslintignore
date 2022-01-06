@@ -1,0 +1,16 @@
+node_modules
+__generated__
+out
+src/models
+next.config.js
+site.config.js
+babel.config.js
+scripts/*
+.storybook/*
+tailwind.config.js
+*.stories.*
+backend/*
+cdk-test/*
+*.spec.js
+*.spec.tsx
+*.spec.ts
