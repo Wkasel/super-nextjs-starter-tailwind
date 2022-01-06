@@ -1,23 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import { Story } from '@storybook/react/types-6-0';
+import { Story } from "@storybook/react/types-6-0";
 
-import { Button, PrimaryButton } from 'ui/atoms';
+import { Button, PrimaryButton } from "ui/atoms";
 
-import { Tabs, ITab } from './tabs';
+import { Tabs, ITab } from "./tabs";
 
 export default {
-  title: 'Tabs',
+  title: "Tabs",
   component: Tabs,
   argTypes: {
     price: {
       control: {
-        type: 'number',
+        type: "number",
       },
     },
     subscribers: {
       control: {
-        type: 'number',
+        type: "number",
       },
     },
   },
@@ -25,15 +25,15 @@ export default {
 
 export const DefaultTabs: Story<any> = (args) => <Tabs {...args} />;
 DefaultTabs.args = {
-  streamName: 'Public',
+  streamName: "Public",
   price: 29.99,
   subscribers: 1500,
-  description: 'insert description here',
+  description: "insert description here",
 };
 
 const exampleTabs = [
   {
-    name: 'The Bebop',
+    name: "The Bebop",
     Content: (
       <div>
         See you, Space Cowboy <PrimaryButton>Someday</PrimaryButton>,<PrimaryButton>Sometime</PrimaryButton>
@@ -41,7 +41,7 @@ const exampleTabs = [
     ),
   },
   {
-    name: 'Serenity',
+    name: "Serenity",
     Content: (
       <>
         <p>I aim to misbehave.</p>

@@ -12,7 +12,8 @@
   "overrides": [
     // Configuration for TypeScript files
     {
-      "files": ["**/*.ts", "**/*.tsx"],
+      "files": ["src/**/*.ts", "src/**/*.tsx", "pages/*.ts", "pages/*.tsx"],
+      "excludedFiles": ["test/**", "cypress/**/*.{js|json}", "public/*"],
       "plugins": ["@typescript-eslint", "unused-imports"],
       "extends": ["airbnb-typescript", "next/core-web-vitals", "plugin:prettier/recommended"],
       "parserOptions": {

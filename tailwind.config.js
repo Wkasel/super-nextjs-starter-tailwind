@@ -991,7 +991,7 @@ module.exports = {
     transitionDuration: ["responsive"],
   },
   corePlugins: {},
-  extens: {
+  extends: {
     keyframes: {
       fadeIn: {
         "0%": {

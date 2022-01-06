@@ -8,28 +8,28 @@
 // ====================================================
 
 export interface GetLaunches_launchesPast_links {
-    __typename: "LaunchLinks";
-    mission_patch_small: string | null;
-    mission_patch: string | null;
+  __typename: "LaunchLinks";
+  mission_patch_small: string | null;
+  mission_patch: string | null;
 }
 
 export interface GetLaunches_launchesPast_rocket {
-    __typename: "LaunchRocket";
-    rocket_name: string | null;
+  __typename: "LaunchRocket";
+  rocket_name: string | null;
 }
 
 export interface GetLaunches_launchesPast {
-    __typename: "Launch";
-    mission_name: string | null;
-    links: GetLaunches_launchesPast_links | null;
-    launch_year: string | null;
-    rocket: GetLaunches_launchesPast_rocket | null;
+  __typename: "Launch";
+  mission_name: string | null;
+  links: GetLaunches_launchesPast_links | null;
+  launch_year: string | null;
+  rocket: GetLaunches_launchesPast_rocket | null;
 }
 
 export interface GetLaunches {
-    launchesPast: (GetLaunches_launchesPast | null)[] | null;
+  launchesPast: (GetLaunches_launchesPast | null)[] | null;
 }
 
 export interface GetLaunchesVariables {
-    limit?: number | null;
+  limit?: number | null;
 }

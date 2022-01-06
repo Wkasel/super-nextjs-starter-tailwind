@@ -4,7 +4,7 @@ export default {
   title: "Navbars",
   component: [Navbar],
   args: {},
-  argTypes: {}
+  argTypes: {},
 };
-export const Default = args => <Navbar {...args} />;
-export const Empty = args => <NavbarEmpty {...args} />;
+export const Default = (args) => <Navbar {...args} />;
+export const Empty = (args) => <NavbarEmpty {...args} />;

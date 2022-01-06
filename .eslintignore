@@ -14,3 +14,5 @@ cdk-test/*
 *.spec.js
 *.spec.tsx
 *.spec.ts
+cypress/*
+test/*

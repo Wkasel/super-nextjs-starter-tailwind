@@ -4,7 +4,7 @@ import { SectionDescription, SectionHeading, Subheading } from "./Typography";
 
 export default {
   title: "Typography",
-  component: SectionDescription
+  component: SectionDescription,
 };
 
 export const _SectionDescription: Story<any> = () => <SectionDescription>I'm a section description</SectionDescription>;

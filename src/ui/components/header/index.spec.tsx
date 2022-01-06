@@ -1,16 +1,16 @@
-import { Logo } from '@components';
-import mount from '@test/mount';
+import { Logo } from "@components";
+import mount from "@test/mount";
 
-import { Header } from './index';
+import { Header } from "./index";
 
-describe('Header component testing with testing-library', () => {
+describe("Header component testing with testing-library", () => {
   const component = mount(<Header />);
 
-  it('renders without crashing', () => {
+  it("renders without crashing", () => {
     expect(component).toBeTruthy();
   });
 
-  it('renders successfuly next.js logo', () => {
+  it("renders successfuly next.js logo", () => {
     expect(component.find(Logo)).toBeDefined();
   });
 });
